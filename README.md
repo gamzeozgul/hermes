@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Banking App
 
-## Getting Started
+## Overview
 
-First, run the development server:
+The **Banking App** is a modern financial application designed to provide a seamless user experience with powerful functionality. Built with the latest web technologies, this app showcases a clean and intuitive interface while offering robust features for managing finances.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**: React framework for building server-side rendered applications.
+- **TypeScript**: Superset of JavaScript that adds static typing.
+- **Appwrite**: Backend server for authentication, database, and file storage.
+- **Plaid**: Service for connecting bank accounts and fetching financial data.
+- **Dwolla**: Payment gateway for ACH transfers.
+- **React Hook Form**: Library for managing form state and validation.
+- **Zod**: Schema validation library.
+- **TailwindCSS**: Utility-first CSS framework for rapid UI development.
+- **Chart.js**: Library for creating interactive charts and graphs.
+- **ShadCN**: UI components and styling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **User Authentication**: Secure login and registration with Appwrite.
+- **Bank Account Integration**: Connect and fetch data from bank accounts using Plaid.
+- **Payments**: Manage ACH transfers with Dwolla.
+- **Form Management**: Handle forms with React Hook Form and Zod.
+- **Responsive Design**: Elegant and responsive UI with TailwindCSS.
+- **Data Visualization**: Interactive charts using Chart.js.
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Authentication**: Users can securely register and log in.
+- **Bank Account Integration**: Connect bank accounts and view data.
+- **Payments**: Initiate and manage ACH transfers.
+- **Charts**: View financial data through interactive charts.
